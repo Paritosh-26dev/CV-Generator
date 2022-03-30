@@ -18,7 +18,7 @@ const NavBar = () => {
                     data-icon="octicon-github"
                     aria-label="Github link for this project"
                   >
-                    Download
+                  Github
                   </GitHubButton>
                 </abbr>
               </NavItem>
