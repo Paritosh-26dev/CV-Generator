@@ -1,7 +1,7 @@
 const express = require("express");
 const cors = require("cors");
 const mongoose = require("mongoose");
-const UserResumeData = require("./models/userResumeSchema.js");
+const UserResumeData = require("./backend/models/userResumeSchema");
 const app = express();
 
 app.use(cors());
@@ -19,7 +19,6 @@ mongoose
 app.use(express.json());
 
 // set the data to DB
-
 app.post("/api", async (req, res) => {
   const data = await UserResumeData.create(req.body);
   res.send({ success: true, resumeData: data });
