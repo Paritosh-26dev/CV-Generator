@@ -29,7 +29,7 @@ app.get("/api/:id", async (req, res) => {
   res.send({ success: true, resumeData: data });
 });
 
-var port = process.env.PORT || 9999;
+var port = process.env.PORT || 5000;
 
 app.listen(port, () => {
   console.log(

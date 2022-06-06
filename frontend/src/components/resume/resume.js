@@ -10,7 +10,7 @@ const ResumeComponent = ({ match }) => {
   useEffect(() => {
     const fetchedData = async () => {
       await axios
-        .get(`http://localhost:9999/api/${match.params.id}`)
+        .get('/api/${match.params.id}')
         .then((res) => {
           if (res.data.success) {
             setMounted(true);
