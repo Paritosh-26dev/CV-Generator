@@ -13,4 +13,6 @@ CV generator application developed using ReactJS, Express JS,  NodeJS and Mongo 
 * ExpressJS.
 * MongoDB.
 
-![image](https://user-images.githubusercontent.com/77405257/160665282-0b1e2914-a5bd-428b-9856-78cae09ece82.png)
+# Screenshots :
+![image](./frontend/src/components/image/Screenshot%202022-08-25%20190329.jpg)
+![image](./frontend/src/components/image/Screenshot%202022-08-25%20185508.jpg)
